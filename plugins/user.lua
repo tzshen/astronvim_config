@@ -22,4 +22,11 @@ return {
     end,
     event = "User AstroFile",
   },
+  {
+    "rose-pine/neovim",
+    as = "rose-pine",
+    config = function()
+      require("rose-pine").setup {}
+    end,
+  },
 }
